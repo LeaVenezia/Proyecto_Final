@@ -3,19 +3,12 @@ section{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        .crousel{
-            .slide{
-                .corousel-inner{
-                    .carousel-item{
+        .carousel-item{
                         img{
-                            height: 120px;
-                            width: 140px;
+                            height: 150px;
+                            object-fit: scale-down;
                         }
                     }
                 }
             }
-        }
-     }
-
-} 
   

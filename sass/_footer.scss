@@ -2,6 +2,7 @@ footer{
     background-image: url(../Multimedia/fondoHeader.jpeg);
     text-align: center;
     border-top: black solid 3px;
+    border-bottom: black solid 3px;
     .footer__redes{
         img{
             width: 30px;
@@ -11,5 +12,6 @@ footer{
     }
     .footer__rights{
         padding-top: 5px;
+        margin-bottom: 0;
     }
 }

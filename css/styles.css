@@ -69,6 +69,8 @@ main .main__subtitles {
   margin-top: 0px;
   border-top: black solid 3px;
   padding-top: 20px;
+  -webkit-text-decoration: underline solid 2px;
+          text-decoration: underline solid 2px;
 }
 
 main #historia__foto {
@@ -86,9 +88,11 @@ main #historia__foto {
 
 main #historia {
   text-align: center;
-  padding: 25px;
+  padding: 40px 20px;
   height: 400px;
   width: 600px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
 }
 
 @media (max-width: 768px) {
@@ -147,11 +151,12 @@ main .main__links {
 }
 
 main .main__links a img {
-  width: 200px;
-  height: 170px;
+  width: 250px;
+  height: 200px;
   margin: 39px;
   -webkit-transition: all 1s;
   transition: all 1s;
+  border-radius: 50px;
 }
 
 main .main__pies img:hover {
@@ -175,11 +180,12 @@ main .main__pies {
 }
 
 main .main__pies img {
-  width: 200px;
-  height: 170px;
-  margin: 39px;
+  width: 250px;
+  height: 200px;
+  margin: 40px;
   -webkit-transition: all 1s;
   transition: all 1s;
+  border-radius: 50px;
 }
 
 @media (max-width: 768px) {
@@ -223,15 +229,17 @@ section .sponsors {
       justify-content: space-around;
 }
 
-section .sponsors .crousel .slide .corousel-inner .carousel-item img {
-  height: 120px;
-  width: 140px;
+section .sponsors .carousel-item img {
+  height: 150px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 footer {
   background-image: url(../Multimedia/fondoHeader.jpeg);
   text-align: center;
   border-top: black solid 3px;
+  border-bottom: black solid 3px;
 }
 
 footer .footer__redes img {
@@ -242,6 +250,7 @@ footer .footer__redes img {
 
 footer .footer__rights {
   padding-top: 5px;
+  margin-bottom: 0;
 }
 
 .centrar {
@@ -253,10 +262,12 @@ footer .footer__rights {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: rgba(255, 0, 0, 0.644);
 }
 
 .formulario {
-  margin: 0% 10%;
+  margin: 0% 20%;
 }
 
 .tortas {

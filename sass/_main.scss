@@ -10,6 +10,7 @@ main{
         margin-top: 0px;
         border-top: black solid 3px;
         padding-top: 20px;
+        text-decoration: underline solid 2px;
     }
 
     #historia__foto{
@@ -26,9 +27,11 @@ main{
     
     #historia{
         text-align: center;
-        padding: 25px;
+        padding: 40px 20px;
         height: 400px;
         width: 600px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 24px;
     }
     @media (max-width:768px){
         #historia{
@@ -63,10 +66,11 @@ main{
         flex-wrap: wrap;
         a{
             img{
-                width: 200px;
-                height: 170px;
+                width: 250px;
+                height: 200px;
                 margin: 39px;
                 transition: all 1s;
+                border-radius: 50px;
             }
         }
     }
@@ -80,10 +84,11 @@ main{
         flex-direction: row;
         flex-wrap: wrap;
             img{
-                width: 200px;
-                height: 170px;
-                margin: 39px;
+                width: 250px;
+                height: 200px;
+                margin: 40px;
                 transition: all 1s;
+                border-radius: 50px;
             }
     }
     @media (max-width:768px){
